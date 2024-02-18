@@ -1,0 +1,47 @@
+.footer{
+    background-color: #0D1034;
+
+    border-radius: 20px;
+
+    padding: 50px 20px;
+    margin: 10px 0;
+}
+.footer__item{
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__logo{
+    img{
+        max-width: 100%;
+    }
+}
+.footer__text{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer__icon{
+    padding: 10px 12px;
+
+    font-size: 14px;
+
+    border-radius: 50%;
+
+    fill: rgba(255, 255, 255, 0.55);
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition: 0.3s ease;
+
+    &:hover{
+        background-color: #ff5f00;
+        fill: #fff;
+        cursor: pointer;
+    }
+}
