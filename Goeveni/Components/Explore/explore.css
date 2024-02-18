@@ -1,0 +1,47 @@
+.explore__wrapper {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin: 10px 0;
+}
+
+.explore__title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #313131;
+}
+
+.explore__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.explore__item1 {
+  background: linear-gradient(135deg, #168fe8 0, #3aa8fb 100%);
+}
+
+.explore__item2 {
+  background: linear-gradient(135deg, #f1a72c 0, #fdd05b 100%);
+}
+
+.explore__item3 {
+  background: linear-gradient(135deg, #6859f2 0, #915cf4 100%);
+}
+
+.explore__item4 {
+  background: linear-gradient(135deg, #c7cbd4 0, #c3c7d2 100%);
+}
+
+.explore__icon {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}/*# sourceMappingURL=explore.css.map */

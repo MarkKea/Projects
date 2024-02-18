@@ -1,0 +1,28 @@
+.post__wrapper{
+    background-image: url('../Images/post.jpg');
+    border-radius: 5px;
+    text-align: center;
+
+    overflow: hidden;
+
+    padding: 27px 20px 39px;
+    margin: 10px 0;
+
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post__title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.post__text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
