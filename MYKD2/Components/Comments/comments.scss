@@ -1,0 +1,95 @@
+$Barlow: 'Barlow', sans-serif;
+
+$color_green: #45f882;
+$color_grey: #adb0bc;
+$color_white: #ffffff;
+
+$font__weight__400: 400;
+$font__weight__500: 500;
+$font__weight__600: 600;
+$font__weight__700: 700;
+
+$uppercase: uppercase;
+
+*{
+    font-family: $Barlow;
+}
+
+.comments{
+    margin: 25px 0;
+    .comments__title{
+        font-size: 24px;
+        font-weight: $font__weight__700;
+
+        line-height: 1.2;
+        letter-spacing: 1px;
+
+        color: $color_white;
+
+        text-transform: $uppercase;
+    }
+    .comments__item{
+        margin: 15px 0;
+        padding: 20px 0;
+
+        border-bottom: 0.5px solid #19222b;
+    }
+    .comments{
+        overflow: hidden;
+
+        border-radius: 50%;
+    }
+    .comments__content{
+        z-index: 1;
+    }
+    .comments__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 15px 0;
+    }
+    .comments__name{
+        font-size: 18px;
+        font-weight: $font__weight__700;
+
+        color: $color_white;
+        
+        line-height: 1.2;
+        letter-spacing: 1px;
+
+        text-transform: $uppercase;
+    }
+    .comments__date{
+        font-size: 14px;
+        font-weight: $font__weight__600;
+
+        color: $color_grey;
+
+        text-transform: $uppercase;
+    }
+    .comments__reply{
+        color: $color_white;
+
+        font-size: 16px;
+        font-weight: $font__weight__700;
+
+        line-height: 1.2;
+
+        text-transform: $uppercase;
+        transition: 0.3s all;
+
+        &:hover{
+            color: $color_green;
+            cursor: pointer;
+        }
+    }
+    .comments__text{
+        font-size: 16px;
+        font-weight: $font__weight__400;
+
+        line-height: 1.75;
+
+        color: $color_grey;
+    }
+}

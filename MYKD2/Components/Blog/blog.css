@@ -1,0 +1,50 @@
+* {
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  margin: 50px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #adb0bc;
+}
+
+.blog {
+  border-bottom: 2px solid #19222b;
+}
+.blog .blog__view {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 10px 0;
+}
+.blog .blog__view__title, .blog .blog__view__date, .blog .blog__view__comment {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+}
+.blog .blog__view__title span, .blog .blog__view__date span, .blog .blog__view__comment span {
+  transition: 0.5s ease;
+}
+.blog .blog__view__title span:hover, .blog .blog__view__date span:hover, .blog .blog__view__comment span:hover {
+  color: #45f882;
+  cursor: pointer;
+}
+.blog .blog__title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 5px 0;
+}
+.blog .blog__text {
+  color: #adb0bc;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 10px 0 20px 0;
+}/*# sourceMappingURL=blog.css.map */

@@ -1,0 +1,56 @@
+$Barlow: 'Barlow', sans-serif;
+
+$color_green: #45f882;
+$color_grey: #adb0bc;
+$color_white: #ffffff;
+
+$font__weight__600: 600;
+
+$uppercase: uppercase;
+
+*{
+    font-family: $Barlow;
+}
+
+.categories{
+    padding: 25px 0;
+    .categories__header{
+        font-size: 22px;
+
+        color: $color_white;
+
+        text-transform: $uppercase;
+    }
+    .categories__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 15px 0;
+    }
+    .categories__title{
+        color: $color_grey;
+
+        font-size: 16px;
+        font-weight: $font__weight__600;
+
+        text-transform: $uppercase;
+
+        transition: 0.5s ease;
+        &:hover{
+            margin-left: 15px;
+
+            cursor: pointer;
+
+            color: $color_green;
+        }
+    }
+    .categories__count{
+        font-size: 16px;
+        font-weight: $font__weight__600;
+
+        color: $color_grey;
+
+        text-transform: $uppercase;
+    }
+}

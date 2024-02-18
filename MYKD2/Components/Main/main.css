@@ -1,0 +1,33 @@
+* {
+  font-family: "Barlow", sans-serif;
+}
+
+.main {
+  background-image: url("../Images/main_bg.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 50px 0;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 480px;
+  color: #ffffff;
+}
+.main .main__header {
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+.main .main__header__item {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.main .main__header__item span {
+  color: #45f882;
+}/*# sourceMappingURL=main.css.map */

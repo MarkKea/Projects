@@ -1,0 +1,35 @@
+* {
+  font-family: "Barlow", sans-serif;
+}
+
+.newsletter {
+  margin: 25px 0;
+}
+.newsletter .newsletter__title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.newsletter .newsletter__text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #adb0bc;
+  line-height: 1.75;
+}
+.newsletter .newsletter__form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 2px solid #19222b;
+}
+.newsletter .newsletter__input {
+  width: 100%;
+  padding: 14px 25px;
+  background-color: #1b242e;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}/*# sourceMappingURL=newsletter.css.map */
